@@ -5,8 +5,14 @@ function App() {
   const [posts, setPosts] = useState([]);
 
   const fetchPosts = async () => {
-    const res = await axios.get("https://hubert-poldevs.github.io/test/posts");
-    setPosts(res.data);
+    try {
+      const res = await axios.get(
+        "https://hubert-poldevs.github.io/test/posts"
+      );
+      setPosts(res.data);
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   useEffect(() => {
