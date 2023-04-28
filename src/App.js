@@ -14,6 +14,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <h1>App</h1>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
