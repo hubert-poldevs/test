@@ -20,7 +20,7 @@
     "json-server": "node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "server": "npx json-server --watch public/db.json --port=3001"
+    "start-json-server": "json-server --watch public/db.json --port 8000"
   },
   "eslintConfig": {
     "extends": [
