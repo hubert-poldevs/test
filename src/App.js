@@ -7,7 +7,7 @@ function App() {
   const fetchPosts = async () => {
     try {
       const res = await axios.get(
-        "https://hubert-poldevs.github.io/test/posts"
+        "http://hubert-poldevs/test/db.json/db.json"
       );
       setPosts(res.data);
     } catch (e) {
