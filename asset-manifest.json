@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hubert-poldevs/test/static/css/main.c7ec3132.css",
-    "main.js": "/hubert-poldevs/test/static/js/main.f6ff94ad.js",
+    "main.js": "/hubert-poldevs/test/static/js/main.44c1b325.js",
     "index.html": "/hubert-poldevs/test/index.html",
     "main.c7ec3132.css.map": "/hubert-poldevs/test/static/css/main.c7ec3132.css.map",
-    "main.f6ff94ad.js.map": "/hubert-poldevs/test/static/js/main.f6ff94ad.js.map"
+    "main.44c1b325.js.map": "/hubert-poldevs/test/static/js/main.44c1b325.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.f6ff94ad.js"
+    "static/js/main.44c1b325.js"
   ]
 }
